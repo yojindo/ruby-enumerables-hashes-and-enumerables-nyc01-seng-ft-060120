@@ -8,7 +8,7 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  passengers.each do |key, value|
-    puts "#{key}: #{value}"
+  passengers.each do |value|
+    puts "#{value}"
   end
 end
